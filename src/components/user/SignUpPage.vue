@@ -5,7 +5,7 @@
 </template>
 <script>
 import SignUpForm from "./SignUpForm";
-import { mapActions, mapState } from "vuex";
+import { mapActions } from "vuex";
 
 export default {
   name: "SignUpPage",
@@ -25,9 +25,6 @@ export default {
     },
 
     ...mapActions(["signup", "signin"]),
-  },
-  computed: {
-    ...mapState(["me"]),
   },
 };
 </script>
