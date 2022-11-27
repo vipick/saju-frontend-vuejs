@@ -1,0 +1,9 @@
+export const SET_ACCESS_TOKEN = "SET_ACCESS_TOKEN";
+export const SET_MY_INFO = "SET_MY_INFO";
+export const DESTROY_ACCESS_TOKEN = "DESTROY_ACCESS_TOKEN";
+export const DESTROY_MY_INFO = "DESTROY_MY_INFO";
+export const SET_MEMBERS = "SET_MEMBERS";
+export const SET_GROUPS = "SET_GROUPS";
+export const SET_GROUP_NAMES = "SET_GROUP_NAMES";
+export const SET_GROUP_MEMBERS = "SET_GROUP_MEMBERS";
+export const SET_MANSE = "SET_MANSE";
