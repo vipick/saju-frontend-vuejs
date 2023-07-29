@@ -18,4 +18,4 @@ phases:
   post_build:
     commands:
       - echo PostBuild Phase
-      - aws s3 sync ./dist s3://saju-client-0925
+      - aws s3 sync ./dist s3://saju-front-prod-0723
