@@ -3,9 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      # - npm i npm@latest -g
-      - curl -s https://deb.nodesource.com/setup_16.x | sudo bash
-      - yum install -y nodejs
+      - npm i npm@latest -g
       - node -v
       - pip install --upgrade pip
       - pip install --upgrade awscli
