@@ -11,7 +11,7 @@ phases:
     commands:
       - echo Pre_build Phase
       - rm package-lock.json
-      - npm install
+      - npm install --legacy-peer-deps
   build:
     commands:
       - echo Build Phase
