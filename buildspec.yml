@@ -2,9 +2,8 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 16.13.2
     commands:
+      - npm i npm@latest -g
       - node -v
       - pip install --upgrade pip
       - pip install --upgrade awscli
