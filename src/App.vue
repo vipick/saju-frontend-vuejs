@@ -8,7 +8,7 @@
         <v-spacer></v-spacer>
 
         <div v-if="isAuthorized">
-          <span @click="onClickMyPage"> 내 정보 20230729-4</span>
+          <span @click="onClickMyPage"> 내 정보 202301211</span>
         </div>
       </v-app-bar>
 
